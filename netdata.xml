@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>netdata</short>
+  <description>netdata monitoring service.</description>
+  <port protocol="tcp" port="19999"/>
+</service>

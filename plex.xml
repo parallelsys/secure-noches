@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>PLEX</short>
+  <description>Plex Media Server.</description>
+  <port protocol="tcp" port="32400"/>
+  <port protocol="tcp" port="32469"/>
+  <port protocol="tcp" port="1900"/>
+  <port protocol="tcp" port="32410"/>
+  <port protocol="tcp" port="32412-32414"/>
+</service>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>ROONCORE</short>
+  <description>Roon Core Music Service.</description>
+  <port protocol="tcp" port="9100-9200"/>
+  <port protocol="udp" port="9003"/>
+</service>
