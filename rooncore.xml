@@ -2,6 +2,8 @@
 <service>
   <short>ROONCORE</short>
   <description>Roon Core Music Service.</description>
-  <port protocol="tcp" port="9100-9200"/>
+  <port protocol="tcp" port="3483"/>
+  <port protocol="tcp" port="9000-9200"/>
   <port protocol="udp" port="9003"/>
+  <port protocol="udp" port="3483"/>
 </service>
