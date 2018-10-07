@@ -25,6 +25,6 @@ Note: that you can run firewall-cmd --add-service=rooncore and it will add the s
 
 Once you add your service and test you and verify it works as expected than you can proceed to make the change permanent...
 
-firewall-cmd --zone=publicweb --add-service=ssh --permanent
+firewall-cmd --zone=publicweb --add-service=rooncore --permanent
 
 Done.
