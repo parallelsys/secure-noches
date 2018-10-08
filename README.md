@@ -8,7 +8,7 @@ OS Dependent because location can change IE: Centos, Fedora, RHEL tracks custom 
 This is also a good place to track custom created definitions.
 
 From firewalld Docs:
--------------------
+
 Copy a file in the services directory in /etc/firewalld
 
 As root copy the file:
@@ -22,8 +22,7 @@ This is the way how a package or system service could add a new service to firew
 
 A package that places a service in the /usr/lib/firewalld/services directory should require the firewalld package or sub package that is providing the path. In an RPM based distribution that is using or that bases on the firewalld provided spec file this package is firewalld-filesystem.
 
-For more information please visit: https://firewalld.org/documentation/howto/add-a-service.html
----------------------
+For more information please visit: [firewalld](https://firewalld.org/documentation/howto/add-a-service.html)
 
 
 After you place your xml file in to the correct directory execute:
