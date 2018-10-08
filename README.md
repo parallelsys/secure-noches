@@ -16,7 +16,8 @@ As root copy the file:
 cp myservice.xml /etc/firewalld/services  
 
 #
-From firewalld Docs  
+**From firewalld Docs  :**  
+
 After you have copied the file into /etc/firewalld/services it takes about 5 seconds till the new service will be visible in firewalld.
 Place a file in the services directory in /usr/lib/firewalld
 
