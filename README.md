@@ -13,8 +13,9 @@ Copy a file in the services directory in /etc/firewalld
 
 As root copy the file:
 
-# cp myservice.xml /etc/firewalld/services
+cp myservice.xml /etc/firewalld/services  
 
+From firewalld Docs  
 After you have copied the file into /etc/firewalld/services it takes about 5 seconds till the new service will be visible in firewalld.
 Place a file in the services directory in /usr/lib/firewalld
 
@@ -22,7 +23,7 @@ This is the way how a package or system service could add a new service to firew
 
 A package that places a service in the /usr/lib/firewalld/services directory should require the firewalld package or sub package that is providing the path. In an RPM based distribution that is using or that bases on the firewalld provided spec file this package is firewalld-filesystem.
 
-For more information please visit: [firewalld](https://firewalld.org/documentation/howto/add-a-service.html)
+For more information please visit: [firewalld](https://firewalld.org/documentation/howto/add-a-service.html)  
 
 
 After you place your xml file in to the correct directory execute:
