@@ -41,7 +41,7 @@ Now you can proceed to enable the service and test:
 
 firewall-cmd --zone=yourzonehere --add-service=rooncore 
 
-# Note: that you can run firewall-cmd --add-service=rooncore and it will add the service to your default running zone.
+**Note: that you can run firewall-cmd --add-service=rooncore and it will add the service to your default running zone.**
 
 Once you add your service and test you and verify it works as expected than you can proceed to make the change permanent...
 
