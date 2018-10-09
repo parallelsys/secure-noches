@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <service>
   <short>RTSP</short>
-  <description>The Real Time Streaming Protocol (RTSP) is a network control protocol designed for use in entertainment and communications systems to control streaming media servers.</description>
+  <description> RTP is real time protocol used for transporting audio and video in real time. Transport used can be unicast, multicast or broadcast, depending upon transport address and port.</description>
   <port port="10000-10100" protocol="udp"/>
 </service>
