@@ -49,6 +49,7 @@ Once you add your service and test you and verify it works as expected than you 
 firewall-cmd --zone=publicweb --add-service=rooncore --permanent
 
 Note: The firewalld-default folder is the default services from Fedora 28 Server Edition.
+
 Note: Regarding Sonos. It opens a bunch of ports. Most which are not needed by roon. I couldnt pin point exactly which ports were needed by roon so I decided to use Sonos FAQ for the range of ports. Be ware!
 If your server is on the edge and is exposed to the internet, I would advice not to open this ports to the world... Only internal to your network.
 
