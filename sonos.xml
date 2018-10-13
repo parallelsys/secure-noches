@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <short>sonos</short>
+  <description>Sonos is the wireless Home Sound System that fills as many rooms as you want with great-sounding music, movies and TV. Stream via WiFi</description>
+  <port protocol="tcp" port="80"/>
+  <port protocol="tcp" port="443"/>
+  <port protocol="tcp" port="445"/>
+  <port protocol="tcp" port="3400"/>
+  <port protocol="tcp" port="3445"/>
+  <port protocol="tcp" port="3500"/>
+  <port protocol="tcp" port="4070"/>
+  <port protocol="tcp" port="4444"/>
+  <port protocol="udp" port="136-139"/>
+  <port protocol="udp" port="1900-1901"/>
+  <port protocol="udp" port="2869"/>
+  <port protocol="udp" port="5353"/>
+  <port protocol="udp" port="6969"/>
+</service>
